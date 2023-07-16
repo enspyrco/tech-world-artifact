@@ -1,0 +1,49 @@
+name: tech_world
+description: Adventures In Tech World, for fun and profit.
+publish_to: 'none' 
+version: 0.0.0-a1
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  web_socket_channel: ^2.4.0
+  ws_game_server_types: ^0.0.0-a1
+  
+  a_star_algorithm: ^0.3.0
+  flame: ^1.8.0
+  vector_math: ^2.1.4
+  
+  # astro
+  astro_core: ^0.0.0-a1
+  astro_types: ^0.0.0-a1
+  astro_locator: ^0.0.0-a1
+  astro_inspector_screen: ^0.0.0-a1
+  astro_auth: ^0.0.0-a1
+  astro_error_handling: ^0.0.0-a1
+  astro_navigation: ^0.0.0-a1
+  
+  # firestore
+  firestore_service_interface: ^0.0.0-a1
+  firestore_service_flutterfire: ^0.0.0-a1
+  
+  collection: ^1.17.1
+  firebase_core: ^2.14.0
+  flutter_markdown: ^0.6.15
+  url_launcher: ^6.1.11
+  fast_immutable_collections: ^9.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  enspyr_lints: ^0.0.0-a1
+  astro_test_utils: ^0.0.0-a1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/bald.png
+    - assets/images/beard.png
